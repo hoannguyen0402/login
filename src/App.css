@@ -1,38 +1,70 @@
 .App {
   text-align: center;
+  width: 400px;
+  min-height: 250px;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: auto;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  padding-top: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search{
+  height: 25px;
+  margin: auto 15px auto auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.add{
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(10, 110, 77);
   color: white;
 }
+.content{
+  display: flex;
+  height: 30px;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  
+}
+.input{
+  width: 150px;
+  /* border: none; */
+  text-align: center;
+  font-size: 16px;
+  
+}
+.done{
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.delete{
+  background-color: brown; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
 
-.App-link {
-  color: #61dafb;
+}
+.total-todo{
+  margin: 180 auto 30px auto;
+  background-color: rgb(241, 182, 182);
+  color: white;
+}
+p{
+  font-size:20px;
+  color: black;
+  margin: auto;
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
